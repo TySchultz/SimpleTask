@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101ACCBC1C0FA42D00EB68F5 /* MainTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101ACCBB1C0FA42D00EB68F5 /* MainTaskCell.swift */; };
 		1025A1D01C0F9C1700C8EB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1025A1CF1C0F9C1700C8EB74 /* AppDelegate.swift */; };
-		1025A1D21C0F9C1700C8EB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1025A1D11C0F9C1700C8EB74 /* ViewController.swift */; };
 		1025A1D51C0F9C1700C8EB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1025A1D31C0F9C1700C8EB74 /* Main.storyboard */; };
 		1025A1D71C0F9C1700C8EB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1025A1D61C0F9C1700C8EB74 /* Assets.xcassets */; };
 		1025A1DA1C0F9C1700C8EB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1025A1D81C0F9C1700C8EB74 /* LaunchScreen.storyboard */; };
 		1025A1E51C0F9C1700C8EB74 /* SimpleTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1025A1E41C0F9C1700C8EB74 /* SimpleTaskTests.swift */; };
 		1025A1F01C0F9C1700C8EB74 /* SimpleTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1025A1EF1C0F9C1700C8EB74 /* SimpleTaskUITests.swift */; };
+		10424D7F1C115D4800B2058E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10424D7E1C115D4800B2058E /* Constants.swift */; };
+		10424D811C11645600B2058E /* EditCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10424D801C11645600B2058E /* EditCellViewController.swift */; };
+		10447D461C0FBE1C00396E0A /* MainTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101ACCB31C0FA03900EB68F5 /* MainTaskTableViewController.swift */; };
+		1084EB781C10A0F00034C662 /* ManageNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084EB771C10A0F00034C662 /* ManageNoteViewController.swift */; };
+		10DB3D881C0FA4DC00B5A7D8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DB3D871C0FA4DC00B5A7D8 /* Item.swift */; };
+		10DB3D8A1C0FA4E500B5A7D8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DB3D891C0FA4E500B5A7D8 /* Note.swift */; };
+		91341CEA799A68C23B379DF4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B7C257B5C7AF222E3ADCC8 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		101ACCB31C0FA03900EB68F5 /* MainTaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTaskTableViewController.swift; sourceTree = "<group>"; };
+		101ACCBB1C0FA42D00EB68F5 /* MainTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTaskCell.swift; sourceTree = "<group>"; };
 		1025A1CC1C0F9C1700C8EB74 /* SimpleTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1025A1CF1C0F9C1700C8EB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1025A1D11C0F9C1700C8EB74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1025A1D41C0F9C1700C8EB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1025A1D61C0F9C1700C8EB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1025A1D91C0F9C1700C8EB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		1025A1EB1C0F9C1700C8EB74 /* SimpleTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1025A1EF1C0F9C1700C8EB74 /* SimpleTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTaskUITests.swift; sourceTree = "<group>"; };
 		1025A1F11C0F9C1700C8EB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10424D7E1C115D4800B2058E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10424D801C11645600B2058E /* EditCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCellViewController.swift; sourceTree = "<group>"; };
+		1084EB771C10A0F00034C662 /* ManageNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageNoteViewController.swift; sourceTree = "<group>"; };
+		10DB3D871C0FA4DC00B5A7D8 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		10DB3D891C0FA4E500B5A7D8 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		44B7C257B5C7AF222E3ADCC8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D98FE15929173AB66C96E10 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B955387AB29873FE4651F84E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91341CEA799A68C23B379DF4 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101ACCB51C0FA3C900EB68F5 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				101ACCB31C0FA03900EB68F5 /* MainTaskTableViewController.swift */,
+				1084EB771C10A0F00034C662 /* ManageNoteViewController.swift */,
+				10424D801C11645600B2058E /* EditCellViewController.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		101ACCB71C0FA3DB00EB68F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10DB3D871C0FA4DC00B5A7D8 /* Item.swift */,
+				10DB3D891C0FA4E500B5A7D8 /* Note.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		101ACCB81C0FA3E300EB68F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				101ACCBB1C0FA42D00EB68F5 /* MainTaskCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		1025A1C31C0F9C1700C8EB74 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				1025A1E31C0F9C1700C8EB74 /* SimpleTaskTests */,
 				1025A1EE1C0F9C1700C8EB74 /* SimpleTaskUITests */,
 				1025A1CD1C0F9C1700C8EB74 /* Products */,
+				40427816EE35939CFBCA7BA1 /* Pods */,
+				F6770CC0D775E0FF7B1A81D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,11 @@
 		1025A1CE1C0F9C1700C8EB74 /* SimpleTask */ = {
 			isa = PBXGroup;
 			children = (
-				1025A1CF1C0F9C1700C8EB74 /* AppDelegate.swift */,
-				1025A1D11C0F9C1700C8EB74 /* ViewController.swift */,
-				1025A1D31C0F9C1700C8EB74 /* Main.storyboard */,
-				1025A1D61C0F9C1700C8EB74 /* Assets.xcassets */,
-				1025A1D81C0F9C1700C8EB74 /* LaunchScreen.storyboard */,
-				1025A1DB1C0F9C1700C8EB74 /* Info.plist */,
+				101ACCB51C0FA3C900EB68F5 /* View controllers */,
+				101ACCB81C0FA3E300EB68F5 /* Views */,
+				101ACCB71C0FA3DB00EB68F5 /* Model */,
+				10DB3D8C1C0FB75100B5A7D8 /* UI */,
+				10DB3D8B1C0FA50200B5A7D8 /* Bundle */,
 			);
 			path = SimpleTask;
 			sourceTree = "<group>";
@@ -125,6 +170,43 @@
 			path = SimpleTaskUITests;
 			sourceTree = "<group>";
 		};
+		10DB3D8B1C0FA50200B5A7D8 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				1025A1CF1C0F9C1700C8EB74 /* AppDelegate.swift */,
+				1025A1D61C0F9C1700C8EB74 /* Assets.xcassets */,
+				1025A1D81C0F9C1700C8EB74 /* LaunchScreen.storyboard */,
+				1025A1DB1C0F9C1700C8EB74 /* Info.plist */,
+			);
+			name = Bundle;
+			sourceTree = "<group>";
+		};
+		10DB3D8C1C0FB75100B5A7D8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				10424D7E1C115D4800B2058E /* Constants.swift */,
+				1025A1D31C0F9C1700C8EB74 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		40427816EE35939CFBCA7BA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D98FE15929173AB66C96E10 /* Pods.debug.xcconfig */,
+				B955387AB29873FE4651F84E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6770CC0D775E0FF7B1A81D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B7C257B5C7AF222E3ADCC8 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1025A1F41C0F9C1700C8EB74 /* Build configuration list for PBXNativeTarget "SimpleTask" */;
 			buildPhases = (
+				C6343D10FA0BA59AAD25AE42 /* Check Pods Manifest.lock */,
 				1025A1C81C0F9C1700C8EB74 /* Sources */,
 				1025A1C91C0F9C1700C8EB74 /* Frameworks */,
 				1025A1CA1C0F9C1700C8EB74 /* Resources */,
+				2BA01C42CAF056655DCB58A3 /* Embed Pods Frameworks */,
+				F690A4C00A09EC2A95E1EE69 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +336,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BA01C42CAF056655DCB58A3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6343D10FA0BA59AAD25AE42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F690A4C00A09EC2A95E1EE69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1025A1C81C0F9C1700C8EB74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1025A1D21C0F9C1700C8EB74 /* ViewController.swift in Sources */,
+				10447D461C0FBE1C00396E0A /* MainTaskTableViewController.swift in Sources */,
+				101ACCBC1C0FA42D00EB68F5 /* MainTaskCell.swift in Sources */,
+				10DB3D8A1C0FA4E500B5A7D8 /* Note.swift in Sources */,
 				1025A1D01C0F9C1700C8EB74 /* AppDelegate.swift in Sources */,
+				10424D811C11645600B2058E /* EditCellViewController.swift in Sources */,
+				10DB3D881C0FA4DC00B5A7D8 /* Item.swift in Sources */,
+				1084EB781C10A0F00034C662 /* ManageNoteViewController.swift in Sources */,
+				10424D7F1C115D4800B2058E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,9 +534,11 @@
 		};
 		1025A1F51C0F9C1700C8EB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D98FE15929173AB66C96E10 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyschultz.SimpleTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,9 +547,11 @@
 		};
 		1025A1F61C0F9C1700C8EB74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B955387AB29873FE4651F84E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyschultz.SimpleTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +625,7 @@
 				1025A1F61C0F9C1700C8EB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1025A1F71C0F9C1700C8EB74 /* Build configuration list for PBXNativeTarget "SimpleTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +634,7 @@
 				1025A1F91C0F9C1700C8EB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1025A1FA1C0F9C1700C8EB74 /* Build configuration list for PBXNativeTarget "SimpleTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +643,7 @@
 				1025A1FC1C0F9C1700C8EB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
